@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_activity_image_height">130dp</dimen>
+    <dimen name="main_activity_button_height">68dp</dimen>
+    <dimen name="title_text_size">32sp</dimen>
+    <dimen name="title_marginTop">8dp</dimen>
+    <dimen name="little_title_text_size">26sp</dimen>
+    <dimen name="little_title_marginTop">4dp</dimen>
+    <dimen name="little_title_marginBottom">12dp</dimen>
+    <dimen name="list_item_height">88dp</dimen>
+    <dimen name="list_image_size">88dp</dimen>
+    <dimen name="list_phone_call_image_size">36dp</dimen>
+    <dimen name="main_scrollView_button_marginBottom">4dp</dimen>
+    <dimen name="main_scrollView_button_marginLeftAndRight">22dp</dimen>
+    <dimen name="list_item_title_textSize">22sp</dimen>
+    <dimen name="list_item_littleTitle_textSize">20sp</dimen>
+</resources>

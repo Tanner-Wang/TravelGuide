@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">旅游指南</string>
+    <string name="attraction">热门景点</string>
+    <string name="attraction1">大瀑布</string>
+    <string name="attraction2">唐代古城</string>
+    <string name="food">美食</string>
+    <string name="food1">海鲜美食街</string>
+    <string name="food2">台湾美风味食城</string>
+    <string name="hotel">酒店</string>
+    <string name="hotel1">彩虹酒店</string>
+    <string name="hotel2">古堡酒店</string>
+    <string name="little_title">你准备好享受今天了吗？出发吧！</string>
+    <string name="shopping">购物</string>
+    <string name="shopping1">第八天酒店</string>
+    <string name="shopping2">海岸城</string>
+    <string name="the_address">（待输入地址）</string>
+    <string name="title">欢迎！</string>
+</resources>

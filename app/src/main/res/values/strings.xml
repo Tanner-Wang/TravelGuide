@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Travel Guide</string>
+    <string name="title">Welcome!</string>
+    <string name="little_title">Are you ready to have a good time? Let\'s go! </string>
+    <string name="hotel">Hotel</string>
+    <string name="attraction">Attraction</string>
+    <string name="shopping">Shopping</string>
+    <string name="food">Food</string>
+    <string name="hotel1">Rainbow Hotel</string>
+    <string name="the_address">(address)</string>
+    <string name="hotel2">Castle Hotel</string>
+    <string name="attraction1">Big Water Fall</string>
+    <string name="attraction2">The Ancient City</string>
+    <string name="shopping1">The Eighth Day Mall</string>
+    <string name="shopping2">Coast City Mall</string>
+    <string name="food1">Seafood Food Street</string>
+    <string name="food2">Taiwanese Cuisine Street</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    tools:context="com.example.administrator.travelguide.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:src="@mipmap/travel_guide"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_activity_image_height"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        style="@style/TitleStyle"
+        android:textStyle="bold"
+        android:textSize="@dimen/title_text_size"
+        android:layout_marginTop="8dp"
+        android:text="@string/title"/>
+
+    <TextView
+        style="@style/TitleStyle"
+        android:textSize="@dimen/little_title_text_size"
+        android:layout_marginTop="@dimen/little_title_marginTop"
+        android:layout_marginBottom="@dimen/little_title_marginBottom"
+        android:text="@string/little_title"/>
+
+
+<!--the textView button bellow-->
+    <TextView
+        android:id="@+id/hotel_button"
+        style="@style/MainScreenButton"
+        android:background="@color/hotel_button_color"
+        android:text="@string/hotel"/>
+    <TextView
+        android:id="@+id/attraction_button"
+        style="@style/MainScreenButton"
+        android:background="@color/attraction_button_color"
+        android:text="@string/attraction"/>
+    <TextView
+        android:id="@+id/shopping_button"
+        style="@style/MainScreenButton"
+        android:background="@color/shopping_button_color"
+        android:text="@string/shopping"/>
+    <TextView
+        android:id="@+id/food_button"
+        style="@style/MainScreenButton"
+        android:background="@color/food_button_color"
+        android:text="@string/food"/>
+
+</LinearLayout>
+    </ScrollView>
