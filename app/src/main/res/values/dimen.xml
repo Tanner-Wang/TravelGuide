@@ -9,9 +9,15 @@
     <dimen name="little_title_marginBottom">12dp</dimen>
     <dimen name="list_item_height">88dp</dimen>
     <dimen name="list_image_size">88dp</dimen>
+    <dimen name="list_image_padding">4dp</dimen>
     <dimen name="list_phone_call_image_size">36dp</dimen>
     <dimen name="main_scrollView_button_marginBottom">4dp</dimen>
     <dimen name="main_scrollView_button_marginLeftAndRight">22dp</dimen>
     <dimen name="list_item_title_textSize">22sp</dimen>
     <dimen name="list_item_littleTitle_textSize">20sp</dimen>
+    <dimen name="title_background_height">130dp</dimen>
+    <dimen name="title_textSize">28sp</dimen>
+    <dimen name="title_textView_width">186dp</dimen>
+    <dimen name="title_textView_height">52dp</dimen>
+    <dimen name="listView_padding">16dp</dimen>
 </resources>
