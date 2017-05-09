@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="main_activity_image_height">130dp</dimen>
+    <dimen name="standard_padding_or_margin">4dp</dimen>
+    <dimen name="list_item_standard_padding">8dp</dimen>
+    <dimen name="main_activity_image_height">160dp</dimen>
     <dimen name="main_activity_button_height">68dp</dimen>
-    <dimen name="title_text_size">32sp</dimen>
+    <dimen name="title_text_size">28sp</dimen>
     <dimen name="title_marginTop">8dp</dimen>
-    <dimen name="little_title_text_size">26sp</dimen>
+    <dimen name="little_title_text_size">22sp</dimen>
     <dimen name="little_title_marginTop">4dp</dimen>
     <dimen name="little_title_marginBottom">12dp</dimen>
-    <dimen name="list_item_height">88dp</dimen>
-    <dimen name="list_image_size">88dp</dimen>
+    <dimen name="list_item_height">96dp</dimen>
+    <dimen name="list_image_size">92dp</dimen>
     <dimen name="list_image_padding">4dp</dimen>
-    <dimen name="list_phone_call_image_size">36dp</dimen>
     <dimen name="main_scrollView_button_marginBottom">4dp</dimen>
     <dimen name="main_scrollView_button_marginLeftAndRight">22dp</dimen>
-    <dimen name="list_item_title_textSize">22sp</dimen>
-    <dimen name="list_item_littleTitle_textSize">20sp</dimen>
-    <dimen name="title_background_height">130dp</dimen>
+    <dimen name="list_item_title_textSize">14sp</dimen>
+    <dimen name="list_item_littleTitle_textSize">12sp</dimen>
+    <dimen name="title_background_height">150dp</dimen>
     <dimen name="title_textSize">28sp</dimen>
     <dimen name="title_textView_width">186dp</dimen>
     <dimen name="title_textView_height">52dp</dimen>
     <dimen name="listView_padding">16dp</dimen>
+    <dimen name="cut_line_height">2dp</dimen>
+    <dimen name="cut_line_margin">5dp</dimen>
+    <dimen name="hotel_points_or_price_textSize">16sp</dimen>
 </resources>

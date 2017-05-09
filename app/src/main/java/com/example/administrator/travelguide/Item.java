@@ -1,28 +1,61 @@
 package com.example.administrator.travelguide;
 
-/**
- * Created by Administrator on 2017/3/10.
- */
 
 public class Item {
-
-    private static final int NO_IMAGE_PROVIDE = -1;
     private int mImageRes;
     private int mNameId;
-    private int mAddressId;
-    private int mPhoneCallRes = NO_IMAGE_PROVIDE;
+    private int mScoreId;
+    private int mEvaluationId;
+    private int mLevelId;
+    private int mLocationId;
+    private int mFeaturesId;
+    private int mPriceId;
+    private int mkindId;
+    private int mAmountId;
+    private int mWebLinkId;
 
-    public Item(int imageResId, int nameId, int addressId){
+    public Item(){}
+
+    public Item(int imageResId, int nameId, int scoreId, int evaluationId, int levelId, int locationId,
+                int featuresId, int priceId, int webLinkId){
         mImageRes = imageResId;
         mNameId = nameId;
-        mAddressId = addressId;
+        mScoreId = scoreId;
+        mEvaluationId = evaluationId;
+        mLevelId = levelId;
+        mLocationId = locationId;
+        mFeaturesId = featuresId;
+        mPriceId = priceId;
+        mWebLinkId = webLinkId;
     }
 
-    public Item(int imageResId, int nameId, int addressId, int phoneCallResId){
+    public Item(int imageResId, int nameId, int levelId, int locationId, int kindId, int featuresId, int priceId,  int webLinkId){
         mImageRes = imageResId;
         mNameId = nameId;
-        mAddressId = addressId;
-        mPhoneCallRes = phoneCallResId;
+        mLevelId = levelId;
+        mLocationId = locationId;
+        mkindId = kindId;
+        mFeaturesId = featuresId;
+        mPriceId = priceId;
+        mWebLinkId = webLinkId;
+    }
+
+    public Item(int imageResId, int nameId, int evaluationId, int amountId, int locationId, int priceId, int webLinkId){
+        mImageRes = imageResId;
+        mNameId = nameId;
+        mEvaluationId = evaluationId;
+        mAmountId = amountId;
+        mLocationId = locationId;
+        mPriceId = priceId;
+        mWebLinkId = webLinkId;
+    }
+
+    public Item(int imageResId, int nameId, int evaluationId, int locationId, int webLinkId){
+        mImageRes = imageResId;
+        mNameId = nameId;
+        mEvaluationId = evaluationId;
+        mLocationId = locationId;
+        mWebLinkId = webLinkId;
     }
 
 
@@ -35,17 +68,39 @@ public class Item {
         return mNameId;
     }
 
-
-    public int getmAddress(){
-        return mAddressId;
+    public int getmScoreId(){
+        return mScoreId;
     }
 
-
-    public int getmPhoneCallRes(){
-        return mPhoneCallRes;
+    public int getmEvaluationId() {
+        return mEvaluationId;
     }
 
-    public boolean hasImage(){
-        return mPhoneCallRes!=NO_IMAGE_PROVIDE;
+    public int getmLevelId() {
+        return mLevelId;
+    }
+
+    public int getmLocationId() {
+        return mLocationId;
+    }
+
+    public int getmFeaturesId() {
+        return mFeaturesId;
+    }
+
+    public int getmPriceId() {
+        return mPriceId;
+    }
+
+    public int getmWebLinkId() {
+        return mWebLinkId;
+    }
+
+    public int getmKindId() {
+        return mkindId;
+    }
+
+    public int getmAmountId() {
+        return mAmountId;
     }
 }

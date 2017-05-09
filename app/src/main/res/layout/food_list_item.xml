@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/food_list_image"
+        android:layout_width="@dimen/list_image_size"
+        android:layout_height="@dimen/list_image_size"
+        android:paddingBottom="@dimen/list_image_padding"
+        android:paddingEnd="@dimen/list_image_padding"
+        android:paddingTop="@dimen/list_image_padding"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:id="@+id/information_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:paddingStart="@dimen/little_title_marginBottom"
+        android:paddingBottom="@dimen/list_item_standard_padding"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/food_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-height"
+            android:textSize="@dimen/list_item_title_textSize" />
+
+
+        <TextView
+            android:id="@+id/food_level"
+            android:textColor="@color/colorBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/food_name"
+            android:textSize="@dimen/list_item_littleTitle_textSize" />
+
+        <TextView
+            android:id="@+id/food_zuobiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/food_level"
+            android:text="@string/shopping_zuobiao"
+            android:textSize="@dimen/list_item_littleTitle_textSize" />
+
+        <TextView
+            android:id="@+id/food_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/food_level"
+            android:layout_toEndOf="@id/food_zuobiao"
+            android:textSize="@dimen/list_item_littleTitle_textSize" />
+
+        <TextView
+            android:id="@+id/food_kind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/food_zuobiao"
+            android:textSize="@dimen/list_item_littleTitle_textSize" />
+
+
+        <TextView
+            android:id="@+id/food_features"
+            android:text="@string/food_sheng_ji_features"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textviewstyle"
+            android:layout_alignParentBottom="true"
+            android:textSize="@dimen/list_item_littleTitle_textSize" />
+
+        <TextView
+            android:id="@+id/food_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/colorOrange"
+            android:layout_alignParentEnd="true"
+            android:textSize="@dimen/hotel_points_or_price_textSize" />
+
+
+        <TextView
+            android:id="@+id/food_renjun"
+            android:text="@string/food_ren_jun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@id/food_price"
+            android:textSize="@dimen/list_item_littleTitle_textSize" />
+
+    </RelativeLayout>
+
+</LinearLayout>

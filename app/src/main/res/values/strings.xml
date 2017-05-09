@@ -1,18 +1,226 @@
 <resources>
-    <string name="app_name">Travel Guide</string>
+    <string name="app_name">Shenzhen Travel Guide</string>
     <string name="title">Welcome!</string>
-    <string name="little_title">Are you ready to have a good time? Let\'s go! </string>
+    <string name="little_title">Are you ready to travel Shenzhen? Let\'s go! </string>
     <string name="hotel">Hotel</string>
     <string name="attraction">Attraction</string>
     <string name="shopping">Shopping</string>
     <string name="food">Food</string>
-    <string name="hotel1">Rainbow Hotel</string>
-    <string name="the_address">(address)</string>
-    <string name="hotel2">Castle Hotel</string>
-    <string name="attraction1">Big Water Fall</string>
-    <string name="attraction2">The Ancient City</string>
-    <string name="shopping1">The Eighth Day Mall</string>
-    <string name="shopping2">Coast City Mall</string>
-    <string name="food1">Seafood Food Street</string>
-    <string name="food2">Taiwanese Cuisine Street</string>
+    <string name="qi_text">&#160;lowest</string>
+    <string name="food_ren_jun">per capita</string>
+    <string name="shopping_tuijian">Recommend :&#160;</string>
+    <string name="shopping_zuobiao">Coordinate :&#160;</string>
+    <string name="attraction_mention">travel notes mentioned</string>
+
+    <string name="hotel_zhong_nan_hai_yi_name">Shenzhen ZhongNanHaiYi Hotel</string>
+    <string name="hotel_zhong_nan_hai_yi_score" translatable="false">4.2&#160;</string>
+    <string name="hotel_zhong_nan_hai_yi_evaluation">points, super good&#160;&#160;&#160;</string>
+    <string name="hotel_zhong_nan_hai_yi_level">High-grade Type</string>
+    <string name="hotel_zhong_nan_hai_yi_location">13 km far from downtown·Coast City|Shenzhen Bay Port</string>
+    <string name="hotel_zhong_nan_hai_yi_features">Easy access</string>
+    <string name="hotel_zhong_nan_hai_yi_price" translatable="false">￥417</string>
+    <string name="hotel_zhong_nan_hai_yi_webLink" translatable="false">
+        https://m.ctrip.com/webapp/hotel/hoteldetail/457399.html?days=1&amp;atime=20170507&amp;contrl=2&amp;num=1…&amp;biz=1</string>
+
+    <string name="hotel_bo_gao_name">Bogao Designer Serviced Apartments</string>
+    <string name="hotel_bo_gao_score" translatable="false">4.6&#160;</string>
+    <string name="hotel_bo_gao_evaluation">points, super good&#160;&#160;&#160;</string>
+    <string name="hotel_bo_gao_level">High-grade Type</string>
+    <string name="hotel_bo_gao_location">6.4 km far from downtown·East Gate Business District</string>
+    <string name="hotel_bo_gao_features">Easy access</string>
+    <string name="hotel_bo_gao_price" translatable="false">￥377</string>
+    <string name="hotel_bo_gao_webLink" translatable="false">
+    https://m.ctrip.com/webapp/hotel/hoteldetail/6461667.html?days=1&amp;atime=20170508&amp;contrl=2&amp;num=1&amp;biz=1</string>
+
+    <string name="hotel_bin_he_shi_dai_name">Shenzhen Riverside Era Ya Duo S Hotel</string>
+    <string name="hotel_bin_he_shi_dai_score" translatable="false">4.8&#160;</string>
+    <string name="hotel_bin_he_shi_dai_evaluation">points, super good&#160;&#160;&#160;</string>
+    <string name="hotel_bin_he_shi_dai_level">High-grade Type</string>
+    <string name="hotel_bin_he_shi_dai_location">3.6 km far from downtown·Futian Port</string>
+    <string name="hotel_bin_he_shi_dai_features">Business trip</string>
+    <string name="hotel_bin_he_shi_dai_price" translatable="false">￥806</string>
+    <string name="hotel_bin_he_shi_dai_webLink" translatable="false">
+    https://m.ctrip.com/webapp/hotel/hoteldetail/5860925.html?days=1&amp;atime=20170508&amp;contrl=2&amp;num=1&amp;biz=1</string>
+
+    <string name="hotel_ju_zi_jiu_dian_name">Orange Hotel</string>
+    <string name="hotel_ju_zi_jiu_dian_score" translatable="false">4.7&#160;</string>
+    <string name="hotel_ju_zi_jiu_dian_evaluation">points, super good&#160;&#160;&#160;</string>
+    <string name="hotel_ju_zi_jiu_dian_level">High-grade Type</string>
+    <string name="hotel_ju_zi_jiu_dian_location">7.1 km far from downtown·Luohu Port|Tran Station</string>
+    <string name="hotel_ju_zi_jiu_dian_features">Service is good</string>
+    <string name="hotel_ju_zi_jiu_dian_price" translatable="false">￥399</string>
+    <string name="hotel_ju_zi_jiu_dian_webLink" translatable="false">
+    https://m.ctrip.com/webapp/hotel/hoteldetail/2247932.html?days=1&amp;atime=20170508&amp;contrl=2&amp;num=1&amp;biz=1</string>
+
+    <string name="hotel_ya_duo_name">Shenzhen Nanshan Ya Duo Hotel</string>
+    <string name="hotel_ya_duo_score" translatable="false">4.9&#160;</string>
+    <string name="hotel_ya_duo_evaluation">points, super good&#160;&#160;&#160;</string>
+    <string name="hotel_ya_duo_level">High-grade Type</string>
+    <string name="hotel_ya_duo_location">14.7 km far from downtown·Luohu Port|Tran Station</string>
+    <string name="hotel_ya_duo_features">Service is good</string>
+    <string name="hotel_ya_duo_price" translatable="false">￥606</string>
+    <string name="hotel_ya_duo_webLink" translatable="false">
+    https://m.ctrip.com/webapp/hotel/hoteldetail/6636949.html?days=1&amp;atime=20170508&amp;contrl=2&amp;num=1&amp;biz=1</string>
+
+    <string name="hotel_chu_tian_name">Shenzhen Chutian Big Hotel</string>
+    <string name="hotel_chu_tian_score" translatable="false">4.2&#160;</string>
+    <string name="hotel_chu_tian_evaluation">points, nice&#160;&#160;&#160;</string>
+    <string name="hotel_chu_tian_level">High-grade Type</string>
+    <string name="hotel_chu_tian_location">2 km far from downtown·Luohu Port</string>
+    <string name="hotel_chu_tian_features">Easy access</string>
+    <string name="hotel_chu_tian_price" translatable="false">￥315</string>
+    <string name="hotel_chu_tian_webLink" translatable="false">
+    https://m.ctrip.com/webapp/hotel/hoteldetail/450229.html?days=1&amp;atime=20170508&amp;contrl=2&amp;num=1&amp;biz=1</string>
+
+    <string name="hotel_bai_he_name">Shenzhen Lily Hotel</string>
+    <string name="hotel_bai_he_score" translatable="false">4.5&#160;</string>
+    <string name="hotel_bai_he_evaluation">points, pretty good&#160;&#160;&#160;</string>
+    <string name="hotel_bai_he_level">Five-star hotel</string>
+    <string name="hotel_bai_he_location">8.9 km far from downtown·Phuket|Shenzhen East Tran Station</string>
+    <string name="hotel_bai_he_features">Easy access</string>
+    <string name="hotel_bai_he_price" translatable="false">￥468</string>
+    <string name="hotel_bai_he_webLink" translatable="false">
+    https://m.ctrip.com/webapp/hotel/hoteldetail/456141.html?days=1&amp;atime=20170508&amp;contrl=2&amp;num=1&amp;biz=1</string>
+
+
+    <string name="attraction_window_of_the_world_name">Window Of The World</string>
+    <string name="attraction_window_of_the_world_evaluation">Will do</string>
+    <string name="attraction_window_of_the_world_amount" translatable="false">515</string>
+    <string name="attraction_window_of_the_world_location">Luohu</string>
+    <string name="attraction_window_of_the_world_price" translatable="false">￥99</string>
+    <string name="attraction_window_of_the_world_webLink" translatable="false">https://m.ctrip.com/webapp/you/sight/shenzhen26/2778.html?hideBrandTip=1&amp;fromtype=1&amp;from=https://m.ctrip.com/webapp/you/sight/Shenzhen26.html?from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fyou%2Fplace%2F26.html%3FhideBrandTip%3D1</string>
+
+    <string name="attraction_da_mei_sha_name">Da Mei Sha Beach Park</string>
+    <string name="attraction_da_mei_sha_evaluation">Beach scenery</string>
+    <string name="attraction_da_mei_sha_amount" translatable="false">146</string>
+    <string name="attraction_da_mei_sha_location">Futian</string>
+    <string name="attraction_da_mei_sha_price" translatable="false">￥68</string>
+    <string name="attraction_da_mei_sha_webLink" translatable="false">https://m.ctrip.com/webapp/you/sight/shenzhen26/5812.html?hideBrandTip=1&amp;fromtype=1&amp;from=https://m.ctrip.com/webapp/you/sight/SHENZHEN26.html?from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fticket%2Findex%3Ffrom%3Dhttps%253A%252F%252Fm.ctrip.com%252Fhtml5%252F</string>
+
+    <string name="attraction_huan_le_gu_name">Happy Valley</string>
+    <string name="attraction_huan_le_gu_evaluation">Will do</string>
+    <string name="attraction_huan_le_gu_amount" translatable="false">238</string>
+    <string name="attraction_huan_le_gu_location">Nanshan</string>
+    <string name="attraction_huan_le_gu_price" translatable="false">￥29.9</string>
+    <string name="attraction_huan_le_gu_webLink" translatable="false">https://m.ctrip.com/webapp/you/sight/shenzhen26/13720.html?hideBrandTip=1&amp;fromtype=1&amp;from=https://m.ctrip.com/webapp/you/sight/SHENZHEN26.html?from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fticket%2Findex%3Ffrom%3Dhttps%253A%252F%252Fm.ctrip.com%252Fhtml5%252F</string>
+
+    <string name="attraction_hua_qiao_cheng_name">Eastern Chinatown</string>
+    <string name="attraction_hua_qiao_cheng_evaluation">Will do</string>
+    <string name="attraction_hua_qiao_cheng_amount" translatable="false">261</string>
+    <string name="attraction_hua_qiao_cheng_location">Nanshan</string>
+    <string name="attraction_hua_qiao_cheng_price" translatable="false">￥150</string>
+    <string name="attraction_hua_qiao_cheng_webLink" translatable="false">https://m.ctrip.com/webapp/you/sight/shenzhen26/50102.html?hideBrandTip=1&amp;fromtype=1&amp;from=https://m.ctrip.com/webapp/you/sight/SHENZHEN26.html?from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fticket%2Findex%3Ffrom%3Dhttps%253A%252F%252Fm.ctrip.com%252Fhtml5%252F</string>
+
+    <string name="attraction_xi_chon_name">West Red</string>
+    <string name="attraction_xi_chon_evaluation">Beach Scenery</string>
+    <string name="attraction_xi_chon_amount" translatable="false">128</string>
+    <string name="attraction_xi_chon_location">Yantian</string>
+    <string name="attraction_xi_chon_price" translatable="false">￥10</string>
+    <string name="attraction_xi_chon_webLink" translatable="false">https://m.ctrip.com/webapp/you/sight/shenzhen26/50565.html?hideBrandTip=1&amp;fromtype=1&amp;from=https://m.ctrip.com/webapp/you/sight/SHENZHEN26.html?from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fticket%2Findex%3Ffrom%3Dhttps%253A%252F%252Fm.ctrip.com%252Fhtml5%252F</string>
+
+    <string name="attraction_lian_hua_shan_name">Lotus Hill Park</string>
+    <string name="attraction_lian_hua_shan_evaluation">Will do</string>
+    <string name="attraction_lian_hua_shan_amount" translatable="false">103</string>
+    <string name="attraction_lian_hua_shan_location">Futian</string>
+    <string name="attraction_lian_hua_shan_price" translatable="false">￥0</string>
+    <string name="attraction_lian_hua_shan_webLink" translatable="false">https://m.ctrip.com/webapp/you/sight/shenzhen26/50541.html?hideBrandTip=1&amp;fromtype=1&amp;from=https://m.ctrip.com/webapp/you/sight/SHENZHEN26.html?from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fticket%2Findex%3Ffrom%3Dhttps%253A%252F%252Fm.ctrip.com%252Fhtml5%252F</string>
+
+    <string name="attraction_shen_da_name">Shenzhen University</string>
+    <string name="attraction_shen_da_evaluation">Will do</string>
+    <string name="attraction_shen_da_amount" translatable="false">52</string>
+    <string name="attraction_shen_da_location">Nanshan</string>
+    <string name="attraction_shen_da_price" translatable="false">￥0;</string>
+    <string name="attraction_shen_da_webLink" translatable="false">https://m.ctrip.com/webapp/you/sight/shenzhen26/145401.html?hideBrandTip=1&amp;fromtype=1&amp;from=https://m.ctrip.com/webapp/you/sight/SHENZHEN26.html?from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fticket%2Findex%3Ffrom%3Dhttps%253A%252F%252Fm.ctrip.com%252Fhtml5%252F</string>
+
+    <string name="shopping_east_gate_pedestrian_street_name">East Gate Pedestrian Street</string>
+    <string name="shopping_east_gate_pedestrian_street_evaluation" translatable="false">TOP 1</string>
+    <string name="shopping_east_gate_pedestrian_street_location">Luohu</string>
+    <string name="shopping_east_gate_pedestrian_street_webLink" translatable="false">https://m.ctrip.com/webapp/you/shops/26/1357290.html?rank=1&amp;districtName=%E6%B7%B1%E5%9C%B3&amp;from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fyou%2Fshops%2F26-dist-1.html%3Ffrom%3Dhttps%253A%252F%252Fm.ctrip.com%252Fwebapp%252Fyou%252Fplace%252F26.html%253Fhidebrandtip%253D1</string>
+
+    <string name="shopping_hua_qiang_bei_name">Huaqiang North Business District</string>
+    <string name="shopping_hua_qiang_bei_evaluation" translatable="false">TOP 2</string>
+    <string name="shopping_hua_qiang_bei_location">Futian</string>
+    <string name="shopping_hua_qiang_bei_webLink" translatable="false">https://m.ctrip.com/webapp/you/shops/26/1357291.html?rank=2&amp;districtName=%E6%B7%B1%E5%9C%B3&amp;from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fyou%2Fshops%2F26-dist-1.html%3Ffrom%3Dhttps%253A%252F%252Fm.ctrip.com%252Fwebapp%252Fyou%252Fplace%252F26.html%253FhideBrandTip%253D1</string>
+
+    <string name="shopping_wan_xiang_cheng_name">Vientiane City</string>
+    <string name="shopping_wan_xiang_cheng_evaluation" translatable="false">TOP 3</string>
+    <string name="shopping_wan_xiang_cheng_location">Luohu</string>
+    <string name="shopping_wan_xiang_cheng_webLink" translatable="false">https://m.ctrip.com/webapp/you/shops/26/1357320.html?rank=3&amp;districtName=%E6%B7%B1%E5%9C%B3&amp;from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fyou%2Fshops%2F26-dist-1.html%3Ffrom%3Dhttps%253a%252f%252fm.ctrip.com%252fwebapp%252fyou%252fplace%252f26.html%253fhidebrandtip%253d1</string>
+
+    <string name="shopping_jing_ji_name">Jingji Baina Square</string>
+    <string name="shopping_jing_ji_evaluation" translatable="false">TOP 4</string>
+    <string name="shopping_jing_ji_location">Nanshan</string>
+    <string name="shopping_jing_ji_webLink" translatable="false">https://m.ctrip.com/webapp/you/shops/26/1357312.html?rank=5&amp;districtName=%E6%B7%B1%E5%9C%B3&amp;from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fyou%2Fshops%2F26-dist-1.html%3Ffrom%3Dhttps%253a%252f%252fm.ctrip.com%252fwebapp%252fyou%252fplace%252f26.html%253fhidebrandtip%253d1</string>
+
+    <string name="shopping_hai_an_cheng_name">Coast City</string>
+    <string name="shopping_hai_an_cheng_evaluation" translatable="false">TOP 5</string>
+    <string name="shopping_hai_an_cheng_location">Nanshan</string>
+    <string name="shopping_hai_an_cheng_webLink" translatable="false">https://m.ctrip.com/webapp/you/shops/26/1363097.html?rank=6&amp;districtName=%E6%B7%B1%E5%9C%B3&amp;from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fyou%2Fshops%2F26-dist-1.html%3Ffrom%3Dhttps%253a%252f%252fm.ctrip.com%252fwebapp%252fyou%252fplace%252f26.html%253fhidebrandtip%253d1</string>
+
+    <string name="shopping_yi_tian_name">Yitian Holiday Plaza</string>
+    <string name="shopping_yi_tian_evaluation" translatable="false">TOP 6</string>
+    <string name="shopping_yi_tian_location">Nanshan</string>
+    <string name="shopping_yi_tian_webLink" translatable="false">https://m.ctrip.com/webapp/you/shops/26/1357322.html?rank=7&amp;districtName=%E6%B7%B1%E5%9C%B3&amp;from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fyou%2Fshops%2F26-dist-1.html%3Ffrom%3Dhttps%253a%252f%252fm.ctrip.com%252fwebapp%252fyou%252fplace%252f26.html%253fhidebrandtip%253d1</string>
+
+    <string name="shopping_cocopark_name">Cocopark</string>
+    <string name="shopping_cocopark_evaluation" translatable="false">TOP 7</string>
+    <string name="shopping_cocopark_location">Futian</string>
+    <string name="shopping_cocopark_webLink" translatable="false">https://m.ctrip.com/webapp/you/shops/26/1357331.html?rank=8&amp;districtName=%E6%B7%B1%E5%9C%B3&amp;from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fyou%2Fshops%2F26-dist-1.html%3Ffrom%3Dhttps%253a%252f%252fm.ctrip.com%252fwebapp%252fyou%252fplace%252f26.html%253fhidebrandtip%253d1</string>
+
+    <string name="food_sheng_ji_name">ShengJi Restaurant</string>
+    <string name="food_sheng_ji_level">meishilin zhenxuan</string>
+    <string name="food_sheng_ji_location">fu tian downtown</string>
+    <string name="food_sheng_ji_kind">yue food</string>
+    <string name="food_sheng_ji_features">Delicious</string>
+    <string name="food_sheng_ji_price" translatable="false">￥190</string>
+    <string name="food_sheng_ji_webLink" translatable="false">https://you.ctrip.com/food/shenzhen26/224032.html#ctm_ref=www_hp_bs_lst</string>
+
+    <string name="food_shun_de_lao_name">Shundelao Restaurant(Nanshan)</string>
+    <string name="food_shun_de_lao_level">meishilin fengwei</string>
+    <string name="food_shun_de_lao_location">nanshan</string>
+    <string name="food_shun_de_lao_kind">yue food</string>
+    <string name="food_shun_de_lao_features">Pretty good</string>
+    <string name="food_shun_de_lao_price" translatable="false">￥90</string>
+    <string name="food_shun_de_lao_webLink" translatable="false">https://you.ctrip.com/food/shenzhen26/5172389.html</string>
+
+    <string name="food_ba_shu_name">Bashu Windy Month(Baoan)</string>
+    <string name="food_ba_shu_level">meishilin fengwei</string>
+    <string name="food_ba_shu_location">baoan</string>
+    <string name="food_ba_shu_kind">sichuan food</string>
+    <string name="food_ba_shu_features">excellent</string>
+    <string name="food_ba_shu_price" translatable="false">￥81</string>
+    <string name="food_ba_shu_webLink" translatable="false">https://m.ctrip.com/webapp/you/foods/26/5170643.html?hideBrandTip=1&amp;fromType=main</string>
+
+    <string name="food_lv_cha_name">Green Tea(Haia colorful city)</string>
+    <string name="food_lv_cha_level">meishilin zhenxuan</string>
+    <string name="food_lv_cha_location">nanshan</string>
+    <string name="food_lv_cha_kind">jiangzhe food</string>
+    <string name="food_lv_cha_features">super good</string>
+    <string name="food_lv_cha_price" translatable="false">￥56</string>
+    <string name="food_lv_cha_webLink" translatable="false">https://you.ctrip.com/food/shenzhen26/5177870.html</string>
+
+    <string name="food_wai_po_jia_name">Wai Po Jia(Royal Court Square)</string>
+    <string name="food_wai_po_jia_level">meishilin one star</string>
+    <string name="food_wai_po_jia_location">futian</string>
+    <string name="food_wai_po_jia_kind">jiangzhe food</string>
+    <string name="food_wai_po_jia_features">super good</string>
+    <string name="food_wai_po_jia_price" translatable="false">￥55</string>
+    <string name="food_wai_po_jia_webLink" translatable="false">https://you.ctrip.com/food/shenzhen26/7403319.html</string>
+
+    <string name="food_miu_si_name">Miu Si Si Chuan Food</string>
+    <string name="food_miu_si_level">meishilin fengwei</string>
+    <string name="food_miu_si_location">nanshan</string>
+    <string name="food_miu_si_kind">sichuan food</string>
+    <string name="food_miu_si_features">very good</string>
+    <string name="food_miu_si_price" translatable="false">￥53</string>
+    <string name="food_miu_si_webLink" translatable="false">https://you.ctrip.com/food/shenzhen26/226247.html</string>
+
+    <string name="food_hai_ji_xian_name">Hai Ji Xian(Huang Gang)</string>
+    <string name="food_hai_ji_xian_level">\"Esophageal\" recommend</string>
+    <string name="food_hai_ji_xian_location">nanshan</string>
+    <string name="food_hai_ji_xian_kind">sea food</string>
+    <string name="food_hai_ji_xian_features">unique and good</string>
+    <string name="food_hai_ji_xian_price" translatable="false">￥148</string>
+    <string name="food_hai_ji_xian_webLink" translatable="false">https://you.ctrip.com/food/shenzhen26/13138613.html</string>
+
 </resources>

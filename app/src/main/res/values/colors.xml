@@ -4,6 +4,8 @@
     <color name="colorPrimaryDark">#689F38</color>
     <color name="colorAccent">#8BC34A</color>
     <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlue">#2196F3</color>
+    <color name="colorOrange">#FF9800</color>
 
     <color name="hotel_button_color">#8BC34A</color>
     <color name="attraction_button_color">#F44336</color>

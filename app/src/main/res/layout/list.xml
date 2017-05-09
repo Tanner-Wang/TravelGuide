@@ -4,24 +4,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <RelativeLayout
+
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="@dimen/title_background_height"
-        android:background="@color/title_background_color"
-        android:gravity="center">
+        android:id="@+id/top_picture"
+        android:scaleType="centerCrop"/>
 
-        <TextView
-            android:id="@+id/title"
-            android:layout_width="@dimen/title_textView_width"
-            android:layout_height="@dimen/title_textView_height"
-            android:background="@drawable/textviewstyle"
-            android:gravity="center"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/title_textSize" />
-
-    </RelativeLayout>
-
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cut_line_height"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="@dimen/cut_line_margin"
+        android:layout_marginTop="@dimen/cut_line_margin"/>
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"

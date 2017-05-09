@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/hotel_list_image"
+        android:layout_width="@dimen/list_image_size"
+        android:layout_height="@dimen/list_image_size"
+        android:paddingBottom="@dimen/list_image_padding"
+        android:paddingEnd="@dimen/list_image_padding"
+        android:paddingTop="@dimen/list_image_padding"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:id="@+id/information_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:background="@android:color/white"
+        android:paddingBottom="@dimen/standard_padding_or_margin"
+        android:paddingStart="@dimen/list_item_standard_padding">
+
+        <TextView
+            android:id="@+id/hotel_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-height"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textSize="@dimen/list_item_title_textSize" />
+
+
+        <TextView
+            android:id="@+id/hotel_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/hotel_name"
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/hotel_points_or_price_textSize" />
+
+
+        <TextView
+            android:id="@+id/hotel_features"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:background="@drawable/textviewstyle"
+            android:textSize="@dimen/list_item_littleTitle_textSize" />
+
+        <TextView
+            android:id="@+id/hotel_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/hotel_score"
+            android:textSize="@dimen/list_item_littleTitle_textSize" />
+
+        <TextView
+            android:id="@+id/hotel_evaluation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/hotel_location"
+            android:layout_toEndOf="@id/hotel_score"
+            android:textSize="@dimen/list_item_littleTitle_textSize" />
+
+        <TextView
+            android:id="@+id/hotel_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/hotel_location"
+            android:layout_toEndOf="@id/hotel_evaluation"
+            android:textSize="@dimen/list_item_littleTitle_textSize" />
+
+
+        <TextView
+            android:id="@+id/text_qi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/qi_text"
+            android:textSize="@dimen/list_item_littleTitle_textSize" />
+
+        <TextView
+            android:id="@+id/hotel_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@id/text_qi"
+            android:textColor="@color/colorOrange"
+            android:textSize="@dimen/hotel_points_or_price_textSize" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

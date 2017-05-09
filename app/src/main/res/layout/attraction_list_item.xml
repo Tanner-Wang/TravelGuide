@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/attraction_list_image"
+        android:layout_width="@dimen/list_image_size"
+        android:layout_height="@dimen/list_image_size"
+        android:paddingBottom="@dimen/list_image_padding"
+        android:paddingEnd="@dimen/list_image_padding"
+        android:paddingTop="@dimen/list_image_padding"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:id="@+id/information_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:background="@android:color/white"
+        android:paddingBottom="@dimen/standard_padding_or_margin"
+        android:paddingStart="@dimen/list_item_standard_padding">
+
+        <TextView
+            android:id="@+id/attraction_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-height"
+            android:textSize="@dimen/list_item_title_textSize" />
+
+        <TextView
+            android:id="@+id/attraction_recommend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/attraction_name"
+            android:layout_alignParentStart="true"
+            android:text="@string/shopping_tuijian"
+            android:textSize="@dimen/list_item_littleTitle_textSize" />
+
+
+        <TextView
+            android:id="@+id/attraction_evaluation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/attraction_name"
+            android:layout_toEndOf="@id/attraction_recommend"
+            android:textSize="@dimen/list_item_littleTitle_textSize" />
+
+        <TextView
+            android:id="@+id/attraction_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/attraction_evaluation"
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/hotel_points_or_price_textSize" />
+
+
+        <TextView
+            android:id="@+id/attraction_qi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qi_text"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="@dimen/list_item_littleTitle_textSize" />
+
+        <TextView
+            android:id="@+id/attraction_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@id/attraction_qi"
+            android:textColor="@color/colorOrange"
+            android:textSize="@dimen/hotel_points_or_price_textSize" />
+
+        <TextView
+            android:id="@+id/attraction_zuobiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shopping_zuobiao"
+            android:layout_below="@id/attraction_amount"
+            android:layout_alignParentStart="true"
+            android:textSize="@dimen/list_item_littleTitle_textSize" />
+
+
+        <TextView
+            android:id="@+id/attraction_mention"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/attraction_mention"
+            android:layout_above="@id/attraction_zuobiao"
+            android:layout_toEndOf="@id/attraction_amount"
+            android:textSize="@dimen/list_item_littleTitle_textSize" />
+
+
+        <TextView
+            android:id="@+id/attraction_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shopping_zuobiao"
+            android:layout_below="@id/attraction_amount"
+            android:layout_toEndOf="@id/attraction_zuobiao"
+            android:textSize="@dimen/list_item_littleTitle_textSize" />
+
+    </RelativeLayout>
+
+</LinearLayout>
