@@ -11,7 +11,7 @@
         android:paddingBottom="@dimen/list_image_padding"
         android:paddingEnd="@dimen/list_image_padding"
         android:paddingTop="@dimen/list_image_padding"
-        android:scaleType="centerCrop" />
+        android:scaleType="center" />
 
     <RelativeLayout
         android:id="@+id/information_bar"

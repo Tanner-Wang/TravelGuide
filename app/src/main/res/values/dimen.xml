@@ -5,7 +5,6 @@
     <dimen name="main_activity_image_height">160dp</dimen>
     <dimen name="main_activity_button_height">68dp</dimen>
     <dimen name="title_text_size">28sp</dimen>
-    <dimen name="title_marginTop">8dp</dimen>
     <dimen name="little_title_text_size">22sp</dimen>
     <dimen name="little_title_marginTop">4dp</dimen>
     <dimen name="little_title_marginBottom">12dp</dimen>
@@ -17,9 +16,6 @@
     <dimen name="list_item_title_textSize">14sp</dimen>
     <dimen name="list_item_littleTitle_textSize">12sp</dimen>
     <dimen name="title_background_height">150dp</dimen>
-    <dimen name="title_textSize">28sp</dimen>
-    <dimen name="title_textView_width">186dp</dimen>
-    <dimen name="title_textView_height">52dp</dimen>
     <dimen name="listView_padding">16dp</dimen>
     <dimen name="cut_line_height">2dp</dimen>
     <dimen name="cut_line_margin">5dp</dimen>
